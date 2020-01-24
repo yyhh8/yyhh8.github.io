@@ -53,7 +53,10 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'demo-sg',
+  node_default: 
+    'demo-hk' -香港节点
+    'demo-sg' -新加坡节点
+    'cfworker' -cloud flare
   // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'demo-hk' : 'mysite',
 
   /**
